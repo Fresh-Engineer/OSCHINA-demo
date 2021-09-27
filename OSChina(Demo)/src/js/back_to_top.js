@@ -22,3 +22,18 @@ function returnTop(){
         }
     });
 }
+
+//实现点击取消图片
+let banner = $('.large-ad');
+let  n = 1;
+function button1(){
+    n = 0;
+    banner.css("-webkit-animation","mymove");
+    banner.css("-webkit-animation-iteration-count","1");
+    banner.css("-webkit-animation-duration","2s");
+    banner.css("-webkit-animation-fill-mode","forwards");
+    // if (n === 0){
+    //     banner.css("animation-play-state","paused");
+    //
+    // }
+}

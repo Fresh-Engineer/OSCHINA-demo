@@ -1009,7 +1009,6 @@
 }
 .gitee-head{
     float: left;
-    display: flex;
     width: 300px;
     margin: 10px;
     height: 40px;
@@ -1032,10 +1031,16 @@
     font-family: "Microsoft JhengHei";
     display: block;
     height: 40px;
-    width: 220px;
+    width: 180px;
     line-height: 40px;
     vertical-align: middle;
 }
+.gitee-head div{
+    float: right;
+    width: 100px;
+    height: 40px;
+}
+
 #countdown{
     font-size: 14px;
     color: darkgray;
@@ -1579,6 +1584,40 @@
     text-align: center;
     color: white;
     background: springgreen;
+}
+.large-ad{
+    position: relative;
+    height: 315px;
+    width: 100%;
+    margin: 30px 0;
+    overflow: hidden;
+    cursor: pointer;
+    background: url("../imgs/index_banner_bigger_new_KHgQG.jpg") no-repeat center center;
+    background-size: auto 100%;
+    transform: translate3d(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+    /* Safari and Chrome */
+
+}
+@-webkit-keyframes mymove {
+    from {
+        height: 315px;
+    }
+    to{
+        height: 0;
+    }
+}
+.close{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url("../imgs/up-0c809cb47090e1bed1a9ef4cf9daa209998.png") no-repeat;
+    background-size: contain;
+    cursor: pointer;
 }
 div{
     display: block;
