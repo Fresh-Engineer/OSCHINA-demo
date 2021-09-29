@@ -1585,11 +1585,15 @@
     color: white;
     background: springgreen;
 }
+.ad{
+    width: 100%;
+    margin: 0 auto;
+}
 .large-ad{
     position: relative;
     height: 315px;
-    width: 100%;
-    margin: 30px 0;
+    width: 1260px;
+    margin: 30px auto;
     overflow: hidden;
     cursor: pointer;
     background: url("../imgs/index_banner_bigger_new_KHgQG.jpg") no-repeat center center;
